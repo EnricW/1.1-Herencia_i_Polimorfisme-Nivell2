@@ -5,10 +5,12 @@ public class Smartphone extends Phone implements Watch, Camera {
         super(brand, model);
     }
 
+    @Override
     public void ringAlarm() {
         System.out.println("Alarm is ringing");
     }
 
+    @Override
     public void takePicture() {
         System.out.println("Taking a picture");
     }
